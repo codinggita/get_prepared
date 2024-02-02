@@ -1,0 +1,44 @@
+  {
+    font-family: "Righteous", cursive;
+  }
+  body {
+    background: url(refer2.jpeg.jpeg);
+    background-size: 100% 650px;
+    background-repeat: no-repeat;
+  }
+  .sugg {
+    text-align: center;
+    margin-top: 450px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: double;
+    color: #837a7b;
+  }
+  .email {
+    margin-left: 400px;
+    margin-top: 150px;
+  }
+  .email_id{
+      width: 500px;
+      height: 50px;
+      border: 6px double black;
+      border-radius: 14px;
+      background-color: #ecc5ca;
+  }
+  ::placeholder{
+      text-align: center;
+      font-size: x-large;   
+  }
+  .btn{
+      width: 100px;
+      height: 50px;
+      border: 6px double black;
+      border-radius: 14px;
+      
+  }
+  .btn:hover{
+      cursor: pointer;
+      background-color: #ecc5ca;
+  }
