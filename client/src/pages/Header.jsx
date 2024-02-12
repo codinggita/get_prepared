@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Nav from "../components/Nav";
-
+import v from "../assets/World Blood Donor Day Initiative - Blood Donor Awareness Video.mp4"
 function Header() {
   return (
     <>
@@ -71,7 +71,7 @@ function Header() {
       <section className="content">
         <div className="vdo">
           <video
-            src="World Blood Donor Day Initiative - Blood Donor Awareness Video.mp4"
+            src={v}
             muted
             autoplay
             loop
