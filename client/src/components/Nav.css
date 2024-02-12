@@ -1,0 +1,37 @@
+.navbar {
+  background-color: white;
+
+  overflow: hidden;
+}
+
+.nav-container {
+    width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.nav-menu {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-item {
+    
+  float: left;
+}
+
+.nav-links {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  background-color: #111;
+}
